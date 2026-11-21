@@ -7,7 +7,7 @@ const selectedIndex = Math.floor(Math.random() * DUMMY_USERS.length);
 
 @Component({
   selector: 'app-user',
-  imports: [Card],
+  standalone: false,
   templateUrl: './user.html',
   styleUrl: './user.css',
 })
